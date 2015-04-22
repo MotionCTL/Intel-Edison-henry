@@ -30,17 +30,17 @@
 
 * I2CWrapperの使い方
 
-i2cWrapperをインポートします<br>
-import i2cWrapper<br>
-APIとして以下のものを提供しています<br>
-//通常busは6を指定してください<br>
-I2CContext *i2cOpen(uint8_t bus, uint8_t slaveReg)<br>
-//1バイト指定したレジストリに書き込み<br>
-bool i2cWriteByte(I2CContext *context, uint8_t reg, uint8_t value) <br>
-//指定したバイト長指定したレジストリに書き込み<br>
-bool i2cWriteBytes(I2CContext *context, uint8_t reg, uint8_t length, uint8_t data)<br>
-//1バイト指定したレジストリから読み込み<br>
-uint8_t i2cReadByte(I2CContext *context, uint8_t reg)<br>
-//指定したバイト長指定したレジストリから読み込み<br>
-bool  i2cReadBytes(I2CContext *context, uint8_t reg, uint8_t length, uint8_t *data)<br>
+  i2cWrapperをインポートします<br>
+  import i2cWrapper<br>
+  APIとして以下のものを提供しています<br>
+  //通常busは6を指定してください<br>
+  I2CContext *i2cOpen(uint8_t bus, uint8_t slaveReg)<br>
+  //1バイト指定したレジストリに書き込み<br>
+  bool i2cWriteByte(I2CContext *context, uint8_t reg, uint8_t value) <br>
+  //指定したバイト長指定したレジストリに書き込み<br>
+  bool i2cWriteBytes(I2CContext *context, uint8_t reg, uint8_t length, uint8_t data)<br>
+  //1バイト指定したレジストリから読み込み<br>
+  uint8_t i2cReadByte(I2CContext *context, uint8_t reg)<br>
+  //指定したバイト長指定したレジストリから読み込み<br>
+  bool  i2cReadBytes(I2CContext *context, uint8_t reg, uint8_t length, uint8_t *data)<br>
 
