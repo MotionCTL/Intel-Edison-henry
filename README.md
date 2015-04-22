@@ -15,7 +15,7 @@
   import sys<br>
   sys.path.append(‘/eaglet/lib’)<br>
   sys.path.append(‘/eaglet/module’)<br>
-  9軸センサー（MPU9250）モジュールを以下のようにimportします<br>
+* 9軸センサー（MPU9250）モジュールを以下のようにimportします<br>
   from MPU9250 import MPU9250<br>
   初期化<br>
   mpu9250 = MPU9250()<br>
@@ -26,10 +26,7 @@
   加速度、角加速度センサーの値は辞書形式で以下のように参照できます<br>
   accelX = accel[‘x’]<br>
   gyroZ  = gyro[‘z’]<br>
-  
-
-* I2CWrapperの使い方
-
+* I2CWrapperの使い方<br>
   i2cWrapperをインポートします<br>
   import i2cWrapper<br>
   APIとして以下のものを提供しています<br>
