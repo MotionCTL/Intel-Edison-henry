@@ -5,7 +5,7 @@
   1.ホストPCからHenryPackageをEdisonに以下のように転送する<br>
   scp –r HenryPackage root@(EdisonのIP):~/<br>
   2.Edison上で、以下のコマンドを実行<br>
-  sh ~/eagletPackage/setup.sh<br>
+  sh ~/HenryPackage/setup.sh<br>
   3.Edison上でサンプルを動かして動作確認<br>
   python /eaglet/sample.py<br>
   4.加速度、角加速度の値がコンソール上に表示されれば成功！<br>
